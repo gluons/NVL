@@ -1,0 +1,27 @@
+{
+  "name": "nvl",
+  "version": "1.0.0",
+  "description": "Replace a blank value with your value.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gluons/NVL.git"
+  },
+  "keywords": [
+    "nvl",
+    "null",
+    "undefined"
+  ],
+  "author": "Saran Tanpituckpong <sarunta@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gluons/NVL/issues"
+  },
+  "homepage": "https://github.com/gluons/NVL",
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
