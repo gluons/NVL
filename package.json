@@ -5,6 +5,7 @@
   "main": "index.js",
   "typings": "index.d.ts",
   "scripts": {
+    "lint": "eslint .",
     "test": "mocha"
   },
   "repository": {
@@ -23,6 +24,8 @@
   },
   "homepage": "https://github.com/gluons/NVL",
   "devDependencies": {
+    "eslint": "^4.12.1",
+    "eslint-config-gluons": "^2.1.0",
     "mocha": "*"
   }
 }
