@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "Replace a blank value with your value.",
   "main": "index.js",
+  "typings": "index.d.ts",
   "scripts": {
     "test": "mocha"
   },
