@@ -1,6 +1,6 @@
 {
   "name": "nvl",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Replace a blank value with your value.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
