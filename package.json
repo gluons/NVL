@@ -1,10 +1,11 @@
 {
   "name": "nvl",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Replace a blank value with your value.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
+    "prepublishOnly": "npm run build",
     "prebuild": "rimraf dist/",
     "build": "tsc",
     "lint": "tslint -p .",
