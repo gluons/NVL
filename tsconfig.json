@@ -1,0 +1,10 @@
+{
+	"extends": "tsconfig-gluons",
+	"compilerOptions": {
+		"outDir": "dist",
+		"sourceMap": false
+	},
+	"include": [
+		"src"
+	]
+}

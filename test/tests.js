@@ -1,7 +1,7 @@
 'use strict';
 
 const assert = require('assert');
-const nvl = require('../');
+const nvl = require('../dist');
 
 describe('NVL', () => {
 	it('shoud return `value` when `value` is not blank value', () => {
