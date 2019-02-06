@@ -5,7 +5,7 @@
 [![TSLint](https://img.shields.io/badge/TSLint-gluons-15757B.svg?style=flat-square)](https://github.com/gluons/tslint-config-gluons)
 [![Travis](https://img.shields.io/travis/gluons/NVL.svg?style=flat-square)](https://travis-ci.org/gluons/NVL)
 
-🚮 Replace a blank value with your value.
+🚮 Replace a blank value with fallback value.
 
 ## Installation
 ```
