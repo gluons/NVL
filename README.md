@@ -8,11 +8,15 @@
 🚮 Replace a blank value with fallback value.
 
 ## Installation
-```
+
+```bash
 npm install nvl
+# Or Yarn
+yarn add nvl
 ```
 
 ## Usage
+
 ```javascript
 const nvl = require('nvl');
 
