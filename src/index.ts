@@ -4,11 +4,11 @@
  * Replace a blank value with fallback value.
  *
  * @template T Value type
- * @param {T} value Value
+ * @param {(T | null | undefined)} value Value
  * @param {T} fallbackValue Fallback value
  * @returns {T}
  */
-function nvl<T>(value: T, fallbackValue: T): T;
+function nvl<T>(value: T | null | undefined, fallbackValue: T): T;
 /**
  * Replace a blank value with fallback value.
  *
