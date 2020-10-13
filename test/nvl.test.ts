@@ -12,13 +12,13 @@ describe('NVL', () => {
 		expect(nvl(false, true)).toStrictEqual(false);
 	});
 	it('shoud return `fallbackValue` when `value` is undefined.', () => {
-		const notYet = void 0;
+		const notYet: undefined = void 0;
 		const now = new Date();
 
 		expect(nvl(notYet, now)).toBe(now);
 	});
 	it('shoud return `fallbackValue` when `value` is null.', () => {
-		const nil = null;
+		const nil: null = null;
 		const now = new Date();
 
 		expect(nvl(nil, now)).toBe(now);
