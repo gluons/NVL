@@ -1,6 +1,6 @@
 {
   "name": "nvl",
-  "version": "1.2.2",
+  "version": "1.3.0",
   "description": "Replace a blank value with fallback value.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
